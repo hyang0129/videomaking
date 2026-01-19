@@ -1,0 +1,38 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+
+# Video / audio / image exports (usually large)
+exports/
+render/
+renders/
+out/
+output/
+
+# Raw footage (do not commit)
+raw/
+footage/
+recordings/
+
+# Common large binaries
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.aif
+*.aiff
+*.flac
+
+# Thumbnails/graphics exports
+*.png
+*.jpg
+*.jpeg
+
+# Project/cache/temp files (extend as needed)
+*.tmp
+*.temp
+*.bak
+.cache/
