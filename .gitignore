@@ -16,20 +16,28 @@ raw/
 footage/
 recordings/
 
-# Common large binaries
+# Common large binaries (Videos)
 *.mp4
 *.mov
 *.mkv
 *.avi
+
+# Audio (usually okay if small, but ignore large raw wavs)
+raw_audio/
 *.wav
 *.aif
 *.aiff
 *.flac
 
-# Thumbnails/graphics exports
+# Visual Assets (Allow specific directories for slides/charts)
+# We ignore global exports but allow assets/ and projects/ images
 *.png
 *.jpg
 *.jpeg
+!assets/**/*.png
+!assets/**/*.jpg
+!projects/**/*.png
+!projects/**/*.jpg
 
 # Project/cache/temp files (extend as needed)
 *.tmp
